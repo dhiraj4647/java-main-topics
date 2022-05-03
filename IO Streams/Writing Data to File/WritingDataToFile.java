@@ -5,6 +5,10 @@ the file with that name.
 -If file is not available then it FileOutputStream creates empty file and add the data into that file.
 FileOutputStream("abc.txt",true) is used for append the data
 -Write method always write character ASCII data and the read method always reads the ASCII data.
+=>It throws FileNotFoundException when:
+1)file doesnt exits but cant be created 
+2)file has read only property.
+3)the passed file in other directory rather than regular file.
 */
 import java.io.*;
 public class WritingDataToFile{
