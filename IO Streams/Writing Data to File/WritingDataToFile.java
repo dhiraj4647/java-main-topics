@@ -2,6 +2,7 @@
 write() method always write data in ASCII character value
 write() does not throws any exception for file, if file is not available then it creates
 the file with that name. 
+-If file is not available then it FileOutputStream creates empty file and add the data into that file.
 FileOutputStream("abc.txt",true) is used for append the data
 */
 import java.io.*;
