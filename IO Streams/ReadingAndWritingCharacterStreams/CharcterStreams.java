@@ -19,6 +19,7 @@ import java.io.IOException;
  * FileWriter(String name)throws FileNotFoundException.
  * FileWriter(File f,boolean append)throws FileNotFoundException
  * FileWriter(String name,boolean append)throws FileNotFoundException.
+ * The only problem in the FileReader and FileWriter is that we can not read one line at a time we have to read one character.
  */
 class CharacterStreams{
     public static void main(String[] arhs) throws  FileNotFoundException,IOException{
